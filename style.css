@@ -3,33 +3,48 @@ body {
     background-color: aliceblue;
     padding: 40 px 0;
 }
+
 h1 {
     font-size: 36px;
+    margin-bottom: 10px;
 }
+
 h2 {
     font-size: 28px;
 }
+
 h3 {
     margin-top: 5px;
 }
+
 span {
     color: grey;
 }
+
+.container {
+    box-shadow: 0 0 20px grey;
+    width: 960px;
+    margin: 0 auto;
+}
+
 section,
 header {
     padding: 10px 60px 20px 60px;
     background-color: white;
-    width: 960px;
-    margin: 0 auto;
+
 }
+
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 60px;
 }
+
 header ul {
     list-style: none;
 }
+
 header li {
     margin-bottom: 15px;
 }
@@ -42,32 +57,39 @@ header li {
     padding: 8px;
     vertical-align: middle;
 }
+
 .circle {
     border-radius: 50%
 }
+
 .profile-picture {
     width: 140px;
     height: 180px;
 }
+
 .hobbies {
     list-style: none;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
 }
+
 .hobbies li {
     width: 50%;
     display: flex;
     align-items: flex-start;
     margin-bottom: 40px;
 }
+
 .hobbies div {
     margin-left: 20px;
 }
+
 .hobbies p {
     color: grey;
     line-height: 1.5;
 }
+
 p {
     line-height: 1.5;
 }
